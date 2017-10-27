@@ -83,7 +83,7 @@ module.exports = (grunt) => {
     grunt.registerTask("build-client", [
       "package",
       "create-deb-installer",
-      "create-rpm-installer",
+      // "create-rpm-installer",
     ]);
   }
 }
